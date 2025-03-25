@@ -2,8 +2,8 @@ mini mini github instructions/tutorial for ethan by arth
 
 not all inclusive, please learn on ur own
 
-steps to edit
-0. git pull --> VERY IMPORTANT so that you dont have to deal with merging and conflicts
+steps to edit  
+0. git pull --> VERY IMPORTANT so that you dont have to deal with merging and conflicts  
 1. git clone url --> clone it into ur own computer
 2. open in vsc and edit 
 3. git add . --> stages all the files, can specify file instead of writing
