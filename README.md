@@ -3,12 +3,12 @@ mini mini github instructions/tutorial for ethan by arth
 not all inclusive, please learn on ur own
 
 steps to edit  
-0. git pull --> VERY IMPORTANT so that you dont have to deal with merging and conflicts  
-1. git clone url --> clone it into ur own computer
-2. open in vsc and edit 
-3. git add . --> stages all the files, can specify file instead of writing
-4. git commit -m "commit message" --> commits the files that were added
-5. git push origin main --> pushes commits to the repository
+1. git pull --> VERY IMPORTANT so that you dont have to deal with merging and conflicts  
+2. git clone url --> clone it into ur own computer
+3. open in vsc and edit 
+4. git add . --> stages all the files, can specify file instead of writing
+5. git commit -m "commit message" --> commits the files that were added
+6. git push origin main --> pushes commits to the repository  
 
 in case want to do branches
 1. git branch branch-name --> create a new branch
