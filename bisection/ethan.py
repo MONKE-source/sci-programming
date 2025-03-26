@@ -5,9 +5,8 @@ def bisection (a,b):
     def func(x):
         return x**2 - 4
     
-    getcontext().prec = 20
-    a = Decimal(str(a))
-    b = Decimal(str(b))
+    getcontext().prec = (20)
+    a, b = Decimal(1), Decimal(3)
     tolerance = Decimal('1e-20')
     while b - a > tolerance:
         c = (a+b) / 2
@@ -16,7 +15,6 @@ def bisection (a,b):
         else:
             a = c
     return c
-print(bisection(1,3))
 
 
     
