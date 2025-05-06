@@ -137,12 +137,12 @@ def animate_trajectory(position1,position2,limit): #only does x and y for now
     ax.set_ylabel("Y Position (m)")
     ax.set_title("Planetary Motion Simulation")
     ax.grid()
-    #ax.scatter(0, 0, color='blue', label="Pluto", s=500)  # adds a grid for better visualisation 
+    #ax.scatter(0, 0, color='blue', label="Pluto", s=500) 
     ax.legend() 
     line1, = ax.plot([], [], lw=2, label="Body 1 Trajectory") # creates the trajectory line
     point1, = ax.plot([], [], 'ro') # creates the red circle for the satellite
-    line2, = ax.plot([], [], lw=2,label="Body 2 Trajectory") # creates the trajectory line
-    point2, = ax.plot([], [], 'go') # creates the green circle for the satellite
+    line2, = ax.plot([], [], lw=2,label="Body 2 Trajectory") 
+    point2, = ax.plot([], [], 'go')
 
     def update(frame):
         if frame < len(position1):  # Ensure frame index is within bounds
